@@ -1,0 +1,22 @@
+Documenting JSON 1
+
+Sample JSON:
+{
+"date": "2015-09-01",
+"description": "sunny",
+"maxTemp": 22,
+"minTemp": 20,
+"windSpeed": 12,
+"danger": false
+}
+
+In this commit, documentation includes a breakdown of the data elements, the data type and any formatting or special notes for each element.
+
+| Data Element | Data Type | Format/Special Notes                   |
+| ------------ | --------- | -------------------------------------- |
+| date         | date      | YYYY-MM-DD                             |
+| description  | string    | a description of the weather that day  |
+| maxTemp      | int       | maximum expected tempature for the day |
+| minTemp      | int       | minimum expected tempature for the day |
+| windSpeed    | int       | average expected wind speed            |
+| danger       | boolean   | true/false                             |
